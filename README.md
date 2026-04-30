@@ -1,7 +1,7 @@
 # Weather Diary
 
-**Author:** Alexey Volkov (example name — replace with yours)  
-**GitHub:** [YourGitHubUsername/weather-diary](https://github.com/YourGitHubUsername/weather-diary)
+**Author:** Sergey Shkolin
+**GitHub:** [fplay1fplay2-a11y](https://github.com/fplay1fplay2-a11y)
 
 ## Description
 Weather Diary is a desktop GUI application that allows users to:
