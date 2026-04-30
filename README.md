@@ -1,27 +1,35 @@
-# Weather Diary
+# Weather Diary (Дневник погоды)
 
-**Author:** Sergey Shkolin
-**GitHub:** [fplay1fplay2-a11y](https://github.com/fplay1fplay2-a11y)
+**Автор:** Сергей Школин  
+**Вариант:** Weather Diary GUI (Вариант №7 / Weather tracking)  
+---
 
-## Description
-Weather Diary is a desktop GUI application that allows users to:
-- Add weather records (date, temperature, description, precipitation)
-- View all records in a table
-- Filter records by date or temperature range
-- Save/load data to/from JSON files
-- Input validation (date format, numeric temperature, non-empty description)
+## 📌 Краткое описание программы
 
-The application is built with Python and `tkinter`.
+**Weather Diary** — это десктопное приложение с графическим интерфейсом для ведения дневника погоды.  
+Оно позволяет:
 
-## How to Run
+- Добавлять записи о погоде: дата, температура, текстовое описание, наличие осадков.
+- Просматривать все записи в удобной таблице.
+- Фильтровать записи по дате (точное совпадение) или по диапазону температур.
+- Сохранять данные в JSON-файл и загружать из любого JSON-файла.
+- Автоматически проверять корректность ввода (формат даты, числовое значение температуры, непустое описание).
 
-### Requirements
-- Python 3.6 or higher
-- No external libraries required (uses only standard library: tkinter, json, datetime, os)
+Приложение написано на **Python 3** с использованием стандартной библиотеки (`tkinter`, `json`, `datetime`, `os`).  
+Не требует установки дополнительных пакетов.
 
-### Steps
-1. Clone the repository or download `weather_diary.py`
-2. Open terminal in the project folder
-3. Run the script:
-   ```bash
-   python weather_diary.py
+---
+
+## 🚀 Инструкция по запуску
+
+### Что нужно установить
+- **Python 3.6 или новее** (скачать с [python.org](https://www.python.org/downloads/))
+- Никаких дополнительных библиотек не требуется — используются только встроенные модули.
+
+### Как запустить
+1. Скачайте файл `weather_diary.py` (или склонируйте репозиторий).
+2. Откройте терминал (командную строку) в папке с программой.
+3. Выполните команду:
+
+```bash
+python weather_diary.py
